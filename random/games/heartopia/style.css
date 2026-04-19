@@ -15,9 +15,25 @@ button {
 }
 
 #map-container {
-    position: relative;
+    overflow: hidden;
+    user-select: none;
+    width: 900px;
+    height: 908px;
     display: inline-block;
-    cursor: default;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+}
+
+#map-inner {
+    position: relative;
+    width: 900px;
+    height: 908px;
+    transform-origin: 0 0;
+    cursor: grab;
+}
+
+#map-inner.grabbing {
+    cursor: grabbing;
 }
 
 .editor-mode #map-container {
@@ -26,6 +42,9 @@ button {
 
 #map {
     width: 900px;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
 }
 
 #modeSelector {

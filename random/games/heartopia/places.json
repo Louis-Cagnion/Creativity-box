@@ -1,102 +1,22 @@
 [
-  {
-    "name": "Centre-ville",
-    "x": 49,
-    "y": 49
-  },
-  {
-    "name": "Banlieue",
-    "x": 49,
-    "y": 59
-  },
-  {
-    "name": "Village de Pecheurs",
-    "x": 49,
-    "y": 68
-  },
-  {
-    "name": "Mer calme",
-    "x": 47,
-    "y": 79
-  },
-  {
-    "name": "Evenement : Peche en mer",
-    "x": 44,
-    "y": 74
-  },
-  {
-    "name": "Foret",
-    "x": 80,
-    "y": 41
-  },
-  {
-    "name": "Foret de chenes spirituels",
-    "x": 82,
-    "y": 54
-  },
-  {
-    "name": "Tremplin",
-    "x": 78,
-    "y": 68
-  },
-  {
-    "name": "Mer calme",
-    "x": 91,
-    "y": 58
-  },
-  {
-    "name": "Ile de la foret",
-    "x": 95,
-    "y": 34
-  },
-  {
-    "name": "Ruines",
-    "x": 31,
-    "y": 21
-  },
-  {
-    "name": "Evenement : Attirer les insects hors de leur trou",
-    "x": 50,
-    "y": 22
-  },
-  {
-    "name": "Falaise rocheuse",
-    "x": 64,
-    "y": 22
-  },
-  {
-    "name": "Montagne thermale",
-    "x": 44,
-    "y": 19
-  },
-  {
-    "name": "Montagne de balleine",
-    "x": 17,
-    "y": 42
-  },
-  {
-    "name": "Mer de baleine",
-    "x": 7,
-    "y": 57
-  },
-  {
-    "name": "Champ de fleurs des moulins a vent",
-    "x": 19,
-    "y": 64
-  },
-  {
-    "name": "Plage violette",
-    "x": 20,
-    "y": 72
-  },
-  {
-    "name": "Ancienne mer",
-    "x": 49,
-    "y": 6
-  },
-  {
-    "name": "Evenement : Retour des oiseaux au nid",
-    "x": 47,
-    "y": 69
-  }
+  { "name": "Centre-ville", "x": 49, "y": 49, "level": 1 },
+  { "name": "Banlieue", "x": 49, "y": 59, "level": 1 },
+  { "name": "Village de pêcheurs", "x": 49, "y": 68, "level": 1 },
+  { "name": "Événement : pêche en mer", "x": 44, "y": 75, "level": 2 },
+  { "name": "Forêt", "x": 80, "y": 41, "level": 1 },
+  { "name": "Forêt de chênes spirituels", "x": 82, "y": 54, "level": 2 },
+  { "name": "Tremplin", "x": 78, "y": 68, "level": 2 },
+  { "name": "Île de la forêt", "x": 95, "y": 34, "level": 2 },
+  { "name": "Ruines", "x": 31, "y": 21, "level": 2 },
+  { "name": "Événement : attirer les insectes hors de leur trou", "x": 50, "y": 22, "level": 2 },
+  { "name": "Falaise rocheuse", "x": 64, "y": 22, "level": 2 },
+  { "name": "Montagne thermale", "x": 44, "y": 19, "level": 1 },
+  { "name": "Montagne de baleine", "x": 17, "y": 42, "level": 2 },
+  { "name": "Mer de baleine", "x": 9, "y": 53, "level": 1 },
+  { "name": "Champ de fleurs des moulins à vent", "x": 19, "y": 64, "level": 1 },
+  { "name": "Plage violette", "x": 20, "y": 72, "level": 2 },
+  { "name": "Ancienne mer", "x": 49, "y": 6, "level": 1 },
+  { "name": "Événement : retour des oiseaux au nid", "x": 47, "y": 69, "level": 2 },
+  { "name": "Mer de l'Est", "x": 94, "y": 56, "level": 1 },
+  { "name": "Mer calme", "x": 47, "y": 81, "level": 1 }
 ]
