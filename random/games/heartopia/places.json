@@ -1,218 +1,38 @@
 [
-  {
-    "name": "Centre-ville",
-    "x": 49,
-    "y": 49,
-    "level": 1
-  },
-  {
-    "name": "Banlieue",
-    "x": 49,
-    "y": 59,
-    "level": 1
-  },
-  {
-    "name": "Village de pêcheurs",
-    "x": 49,
-    "y": 68,
-    "level": 1
-  },
-  {
-    "name": "Événement : pêche en mer",
-    "x": 44,
-    "y": 75,
-    "level": 2
-  },
-  {
-    "name": "Forêt",
-    "x": 82,
-    "y": 43,
-    "level": 1
-  },
-  {
-    "name": "Forêt de chênes spirituels",
-    "x": 82,
-    "y": 54,
-    "level": 2
-  },
-  {
-    "name": "Tremplin",
-    "x": 78,
-    "y": 68,
-    "level": 2
-  },
-  {
-    "name": "Île de la forêt",
-    "x": 95,
-    "y": 34,
-    "level": 2
-  },
-  {
-    "name": "Ruines",
-    "x": 31,
-    "y": 21,
-    "level": 2
-  },
-  {
-    "name": "Événement : attirer les insectes hors de leur trou",
-    "x": 50,
-    "y": 22,
-    "level": 2
-  },
-  {
-    "name": "Falaise rocheuse",
-    "x": 64,
-    "y": 22,
-    "level": 2
-  },
-  {
-    "name": "Montagne thermale",
-    "x": 44,
-    "y": 19,
-    "level": 1
-  },
-  {
-    "name": "Montagne de baleine",
-    "x": 17,
-    "y": 42,
-    "level": 2
-  },
-  {
-    "name": "Mer de baleine",
-    "x": 8,
-    "y": 44,
-    "level": 1
-  },
-  {
-    "name": "Plage violette",
-    "x": 20,
-    "y": 72,
-    "level": 2
-  },
-  {
-    "name": "Ancienne mer",
-    "x": 49,
-    "y": 6,
-    "level": 1
-  },
-  {
-    "name": "Événement : retour des oiseaux au nid",
-    "x": 45,
-    "y": 71,
-    "level": 2
-  },
-  {
-    "name": "Mer de l'Est",
-    "x": 92,
-    "y": 56,
-    "level": 1
-  },
-  {
-    "name": "Mer calme",
-    "x": 47,
-    "y": 81,
-    "level": 1
-  },
-  {
-    "name": "Champ de fleurs",
-    "x": 20,
-    "y": 60,
-    "level": 1
-  },
-  {
-    "name": "Tour faon",
-    "x": 82,
-    "y": 35,
-    "level": 2
-  },
-  {
-    "name": "Source thermale",
-    "x": 54,
-    "y": 24,
-    "level": 2
-  },
-  {
-    "name": "Lac volcanique",
-    "x": 38,
-    "y": 17,
-    "level": 2
-  },
-  {
-    "name": "Riviere aurore",
-    "x": 28,
-    "y": 33,
-    "level": 2
-  },
-  {
-    "name": "Riviere peu profonde",
-    "x": 68,
-    "y": 33,
-    "level": 2
-  },
-  {
-    "name": "Fleuve d'arbres geants",
-    "x": 61,
-    "y": 67,
-    "level": 2
-  },
-  {
-    "name": "Riviere calme",
-    "x": 34,
-    "y": 70,
-    "level": 2
-  },
-  {
-    "name": "Champs de fleurs des moulins a vents",
-    "x": 18,
-    "y": 64,
-    "level": 2
-  },
-  {
-    "name": "Lac de la foret",
-    "x": 78,
-    "y": 44,
-    "level": 2
-  },
-  {
-    "name": "Lac de banlieue",
-    "x": 48,
-    "y": 61,
-    "level": 2
-  },
-  {
-    "name": "Lac de la prairie",
-    "x": 22,
-    "y": 54,
-    "level": 2
-  },
-  {
-    "name": "Lac de la montagne thermale",
-    "x": 39,
-    "y": 21,
-    "level": 2
-  },
-  {
-    "name": "Phare",
-    "x": 36,
-    "y": 78,
-    "level": 2
-  },
-  {
-    "name": "Quai",
-    "x": 40,
-    "y": 68,
-    "level": 2
-  },
-  {
-    "name": "Place du village de pecheurs",
-    "x": 53,
-    "y": 69,
-    "level": 2
-  },
-  {
-    "name": "Quai oriental du village de pecheurs",
-    "x": 58,
-    "y": 74,
-    "level": 2
-  }
+  { "name": "Centre-ville", "x": 49, "y": 49, "level": 1 },
+  { "name": "Banlieue", "x": 49, "y": 59, "level": 1 },
+  { "name": "Village de pêcheurs", "x": 49, "y": 68, "level": 1 },
+  { "name": "Événement : pêche en mer", "x": 44, "y": 75, "level": 2 },
+  { "name": "Forêt", "x": 82, "y": 43, "level": 1 },
+  { "name": "Forêt de chênes spirituels", "x": 82, "y": 54, "level": 2 },
+  { "name": "Tremplin", "x": 78, "y": 68, "level": 2 },
+  { "name": "Île de la forêt", "x": 95, "y": 34, "level": 2 },
+  { "name": "Ruines", "x": 31, "y": 21, "level": 2 },
+  { "name": "Événement : attirer les insectes hors de leur trou", "x": 50, "y": 22, "level": 2 },
+  { "name": "Falaise rocheuse", "x": 64, "y": 22, "level": 2 },
+  { "name": "Montagne thermale", "x": 44, "y": 19, "level": 1 },
+  { "name": "Montagne de baleine", "x": 17, "y": 42, "level": 2 },
+  { "name": "Mer de baleine", "x": 8, "y": 44, "level": 1 },
+  { "name": "Plage violette", "x": 20, "y": 72, "level": 2 },
+  { "name": "Ancienne mer", "x": 49, "y": 6, "level": 1 },
+  { "name": "Événement : retour des oiseaux au nid", "x": 45, "y": 71, "level": 2 },
+  { "name": "Mer de l'Est", "x": 92, "y": 56, "level": 1 },
+  { "name": "Mer calme", "x": 47, "y": 81, "level": 1 },
+  { "name": "Champ de fleurs", "x": 20, "y": 60, "level": 1 },
+  { "name": "Tour du faon", "x": 82, "y": 35, "level": 2 },
+  { "name": "Source thermale", "x": 54, "y": 24, "level": 2 },
+  { "name": "Lac volcanique", "x": 38, "y": 17, "level": 2 },
+  { "name": "Rivière aurore", "x": 28, "y": 33, "level": 2 },
+  { "name": "Rivière peu profonde", "x": 68, "y": 33, "level": 2 },
+  { "name": "Fleuve d'arbres géants", "x": 61, "y": 67, "level": 2 },
+  { "name": "Rivière calme", "x": 34, "y": 70, "level": 2 },
+  { "name": "Champ de fleurs des moulins à vent", "x": 18, "y": 64, "level": 2 },
+  { "name": "Lac de la forêt", "x": 78, "y": 44, "level": 2 },
+  { "name": "Lac de banlieue", "x": 48, "y": 61, "level": 2 },
+  { "name": "Lac de la prairie", "x": 22, "y": 54, "level": 2 },
+  { "name": "Lac de la montagne thermale", "x": 39, "y": 21, "level": 2 },
+  { "name": "Phare", "x": 36, "y": 78, "level": 2 },
+  { "name": "Quai", "x": 40, "y": 68, "level": 2 },
+  { "name": "Place du village de pêcheurs", "x": 53, "y": 69, "level": 2 },
+  { "name": "Quai oriental du village de pêcheurs", "x": 58, "y": 74, "level": 2 }
 ]
