@@ -141,7 +141,7 @@ function createPlaceMarker(name, x, y) {
     // 🏷️ label
     const label = document.createElement("div");
     label.className = "place-label";
-    label.textContent = name;
+    label.textContent = formatPlaceName(name);
     el.appendChild(label);
 
     // 🖱️ SELECT (TOUS MODES)
@@ -256,4 +256,27 @@ function triggerImport() {
     if (mode !== "admin") return;
 
     document.getElementById("importFile").click();
+}
+
+function formatPlaceName(name) {
+    const max = 19;
+    const words = name.split(" ");
+
+    let lines = [];
+    let line = "";
+
+    for (let w of words) {
+        const test = line ? line + " " + w : w;
+
+        if (test.length > max) {
+            lines.push(line);
+            line = w;
+        } else {
+            line = test;
+        }
+    }
+
+    if (line) lines.push(line);
+
+    return lines.join("\n");
 }
