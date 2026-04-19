@@ -18,9 +18,9 @@ button {
     overflow: hidden;
     user-select: none;
     width: 900px;
-    height: 908px;
+    height: 898px;
     display: inline-block;
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 5px solid rgba(255, 255, 255, 0.4);
     border-radius: 4px;
 }
 
