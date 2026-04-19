@@ -70,18 +70,21 @@ container.addEventListener("click", function(e) {
 
     const rect = container.getBoundingClientRect();
 
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    const x = ((e.clientX - rect.left - panX) / (rect.width * zoom)) * 100;
+    const y = ((e.clientY - rect.top - panY) / (rect.height * zoom)) * 100;
 
     const name = prompt("Nom du lieu ?");
     if (!name) return;
 
-    const place = { name, x, y };
+    const levelStr = prompt("Niveau (1 ou 2) ?");
+    const level = parseInt(levelStr) === 2 ? 2 : 1;
+
+    const place = { name, x, y, level };
 
     places.push(place);
     savePlaces();
 
-    createPlaceMarker(name, x, y, 1);
+    createPlaceMarker(name, x, y, level);
 });
 
 // =========================
@@ -94,8 +97,8 @@ document.addEventListener("mousemove", function(e) {
 
     const rect = container.getBoundingClientRect();
 
-    let x = ((e.clientX - rect.left) / rect.width) * 100;
-    let y = ((e.clientY - rect.top) / rect.height) * 100;
+    let x = ((e.clientX - rect.left - panX) / (rect.width * zoom)) * 100;
+    let y = ((e.clientY - rect.top - panY) / (rect.height * zoom)) * 100;
 
     x = Math.max(0, Math.min(100, x));
     y = Math.max(0, Math.min(100, y));
@@ -147,6 +150,27 @@ function createPlaceMarker(name, x, y, level = 1) {
     label.textContent = formatPlaceName(name);
     el.appendChild(label);
 
+    // ✏️ RENAME (ADMIN ONLY)
+    label.ondblclick = function(e) {
+        if (mode !== "admin") return;
+        e.stopPropagation();
+
+        const newName = prompt("Nouveau nom ?", name);
+        if (!newName || newName === name) return;
+
+        label.textContent = formatPlaceName(newName);
+        el.dataset.name = newName;
+
+        const place = places.find(p => p.name === name);
+        if (place) {
+            place.name = newName;
+            name = newName;
+            savePlaces();
+        }
+
+        setTimeout(() => { repositionLabels(); clampLabels(); }, 50);
+    };
+
     // 🖱️ SELECT (TOUS MODES)
     el.onclick = function(e) {
         e.stopPropagation();
@@ -165,7 +189,7 @@ function createPlaceMarker(name, x, y, level = 1) {
             e.stopPropagation();
             return;
         }
-        e.stopPropagation(); // 👈 empêche le pan quand on clique sur un marqueur
+        e.stopPropagation();
     };
 
     // 🗑️ DELETE (ADMIN ONLY)
@@ -189,7 +213,6 @@ function createPlaceMarker(name, x, y, level = 1) {
     };
 
     inner.appendChild(el);
-    console.log(label.getBoundingClientRect());
 }
 
 // =========================
@@ -204,7 +227,7 @@ places.forEach(p => {
         createPlaceMarker(p.name, p.x, p.y, p.level || 1);
     }
 });
-setTimeout(() => {updateMarkerVisibility(); repositionLabels(); clampLabels();}, 100);
+setTimeout(() => {applyTransform(); updateMarkerVisibility(); repositionLabels(); clampLabels();}, 100);
 
 // =========================
 // 📤 EXPORT
@@ -330,7 +353,6 @@ let panStartX = 0;
 let panStartY = 0;
 
 function applyTransform() {
-    // Limites du pan
     const minPanX = -(900 * zoom - 900);
     const minPanY = -(908 * zoom - 908);
 
@@ -338,9 +360,21 @@ function applyTransform() {
     panY = Math.min(0, Math.max(panY, minPanY));
 
     inner.style.transform = `translate(${panX}px, ${panY}px) scale(${zoom})`;
+
     const fontSize = 22 / zoom;
+    const markerSize = Math.max(6, 16 / zoom);
+    const borderSize = Math.max(1, 2 / zoom);
+
     document.querySelectorAll(".place-label").forEach(l => {
         l.style.fontSize = fontSize + "px";
+    });
+
+    document.querySelectorAll(".place-marker").forEach(el => {
+        el.style.width = markerSize + "px";
+        el.style.height = markerSize + "px";
+        el.style.borderRadius = "50%";
+        el.style.border = `${borderSize}px solid black`;
+        el.style.boxShadow = "none";
     });
 }
 
@@ -367,13 +401,17 @@ container.addEventListener("wheel", function(e) {
 
 // Pan - début
 container.addEventListener("mousedown", function(e) {
-    if (mode === "admin") return; // en admin on place des marqueurs
-    if (e.button !== 0) return;
+    if (e.button !== 2) return; // 👈 clic droit uniquement
 
     isPanning = true;
     panStartX = e.clientX - panX;
     panStartY = e.clientY - panY;
     inner.classList.add("grabbing");
+    e.preventDefault();
+});
+
+container.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
 });
 
 // Pan - déplacement

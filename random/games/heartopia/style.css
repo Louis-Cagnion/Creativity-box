@@ -83,12 +83,9 @@ button {
     border-radius: 50%;
     cursor: pointer;
     transform: translate(-50%, -50%);
-    
-    box-shadow: 0 0 0 2px black;
 }
 
 .place-marker {
-    border: 2px solid black;
     width: 16px;
     height: 16px;
     position: absolute;
