@@ -1,0 +1,171 @@
+:root {
+    --ui-font-size: 22px;
+}
+
+body {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: var(--ui-font-size);
+}
+
+button {
+    font-size: var(--ui-font-size);
+}
+
+#map-container {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+}
+
+.editor-mode #map-container {
+    cursor: crosshair;
+}
+
+#map {
+    width: 900px;
+}
+
+#modeSelector {
+    margin: 10px;
+}
+
+#modeSelector button {
+    margin: 5px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#modeSelector button:hover {
+    background: #555;
+}
+
+#panel {
+    font-size: var(--ui-font-size);
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: #111;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.marker {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: 0 0 0 2px black;
+}
+
+.place-marker {
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.place-label {
+    font-size: var(--ui-font-size);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+
+    white-space: nowrap;
+
+    pointer-events: none;
+}
+
+/* couleurs */
+.poisson { background: #3498db; }
+.oiseau { background: #f1c40f; }
+.insecte { background: #2ecc71; }
+.collectible { background: #e67e22; }
+
+#tooltip {
+    position: absolute;
+    background: black;
+    padding: 6px;
+    border-radius: 5px;
+    display: none;
+    font-size: var(--ui-font-size);
+}
+
+/* ========================= */
+/* 🔵 AJOUTS ADMIN UI        */
+/* ========================= */
+
+/* panneau admin */
+#adminPanel {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #111;
+    padding: 12px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* boutons admin */
+#adminPanel button {
+    width: 100%;
+    margin: 4px 0;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#adminPanel button:hover {
+    background: #555;
+}
+
+/* input file propre */
+#adminPanel input[type="file"] {
+    width: 100%;
+    margin-top: 5px;
+    font-size: var(--ui-font-size);
+    color: white;
+}
+
+/* cacher éléments */
+.hidden {
+    display: none;
+}
+
+/* mode admin visuel (optionnel) */
+.editor-mode #map {
+    outline: 2px dashed rgba(255,255,255,0.3);
+    cursor: crosshair;
+}
+
+/* amélioration filtres (optionnel mais léger) */
+.filters {
+    margin-bottom: 10px;
+}
+
+.filters label {
+    margin: 0 5px;
+}
