@@ -74,6 +74,99 @@ button {
     padding: 10px;
     border-radius: 8px;
     color: white;
+    max-width: 250px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#placeTitle {
+    cursor: pointer;
+    margin: 0;
+    color: red;
+}
+
+#placeTitle:hover {
+    color: red;
+}
+
+#elementsList {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.elements-lieu {
+    margin-top: 8px;
+}
+
+.elements-lieu-titre {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    border-left: 3px solid red;
+    padding-left: 6px;
+}
+
+.elements-lieu-liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.elements-lieu-liste li {
+    padding: 2px 0;
+    border-bottom: 1px solid #222;
+}
+
+#panelSpeciaux {
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    background: #111;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    max-width: 250px;
+    max-height: 60vh;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+#panelSpeciaux h3 {
+    margin: 0 0 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#panelSpeciaux h3 button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    width: auto;
+}
+
+#btnSpeciaux {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #333;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: var(--ui-font-size);
+    z-index: 100;
+}
+
+#btnSpeciaux:hover {
+    background: #555;
 }
 
 .marker {

@@ -18,7 +18,7 @@
 <div id="adminPanel" class="hidden">
     <button onclick="openPanel('panelPoisson')">🐟 Poisson</button>
     <button onclick="openPanel('panelInsecte')">🐛 Insecte</button>
-    <button onclick="openPanel('panelOiseau')">🐦 Oiseau</button>
+    <button onclick="openPanel('panelOiseau')">🪶 Oiseau</button>
     <button onclick="openCollectiblePanel()">🍄 Collectible</button>
     <button onclick="exportTout()">📤 Tout exporter</button>
     <button onclick="triggerImportElements()">📥 Importer éléments</button>
@@ -37,13 +37,23 @@
 
 <div id="map-container">
     <div id="map-inner">
-        <img src="map.jpg" id="map">
+        <img src="./map/map.jpg" id="map">
     </div>
 </div>
 
 <div id="panel">
-    <h3 id="placeTitle">Aucun lieu sélectionné</h3>
+    <h3 id="placeTitle" onclick="toggleElementsPanel()">Aucun lieu sélectionné</h3>
+    <div id="elementsPanel" class="hidden">
+        <div id="elementsList"></div>
+    </div>
 </div>
+
+<div id="panelSpeciaux" class="hidden">
+    <h3>⭐ Éléments spéciaux <button onclick="toggleSpeciaux()">✖</button></h3>
+    <div id="speciauxList"></div>
+</div>
+
+<button id="btnSpeciaux" class="hidden" onclick="toggleSpeciaux()">⭐ Spéciaux</button>
 
 <!-- 🐟 PANNEAU POISSONS -->
 <div id="panelPoisson" class="hidden element-panel">
@@ -103,9 +113,9 @@
     <button onclick="closePanel('panelInsecte')">✖ Fermer</button>
 </div>
 
-<!-- 🐦 PANNEAU OISEAUX -->
+<!-- 🪶 PANNEAU OISEAUX -->
 <div id="panelOiseau" class="hidden element-panel">
-    <h3>🐦 Ajouter un oiseau</h3>
+    <h3>🪶 Ajouter un oiseau</h3>
     <label>Nom :<input type="text" id="oisseauNom"></label>
     <label>Lieu :
         <select id="oisseauLieu"></select>
