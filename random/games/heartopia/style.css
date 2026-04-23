@@ -185,3 +185,78 @@ button {
 .filters label {
     margin: 0 5px;
 }
+
+.element-panel {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    background: #111;
+    padding: 14px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    color: white;
+    font-size: var(--ui-font-size);
+    z-index: 100;
+}
+
+.element-panel h3 {
+    margin: 0 0 10px 0;
+}
+
+.element-panel label {
+    display: block;
+    margin: 6px 0;
+}
+
+.element-panel input[type="text"],
+.element-panel input[type="number"],
+.element-panel select {
+    width: 100%;
+    margin-top: 3px;
+    background: #222;
+    border: 1px solid #555;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: var(--ui-font-size);
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    gap: 3px;
+}
+
+.checkbox-group label {
+    margin: 0;
+    font-size: var(--ui-font-size);
+}
+
+.element-panel button {
+    width: 100%;
+    margin: 4px 0;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    font-size: var(--ui-font-size);
+}
+
+.element-panel button:hover {
+    background: #555;
+}
+
+.collectible-marker {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #e67e22;
+    border: 1px solid black;
+}

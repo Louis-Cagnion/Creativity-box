@@ -1,0 +1,793 @@
+[
+  {
+    "name": "Rouge-gorge",
+    "lieu": "Centre-ville",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grand pic",
+    "lieu": "Montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Troglodyte",
+    "lieu": "Forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Bouvreuil à ventre rouge",
+    "lieu": "Banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Fringilla coelebs",
+    "lieu": "Champ de fleurs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Ara bleu et jaune",
+    "lieu": "Événement : retour des oiseaux au nid",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pigeon colombin",
+    "lieu": "Centre-ville",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tourterelle grise",
+    "lieu": "Foyer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tourterelle tigrine",
+    "lieu": "Village de pêcheurs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Flamant rose",
+    "lieu": "Bord de l'eau",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Paon bleu",
+    "lieu": "Événement : retour des oiseaux au nid",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Canard colvert",
+    "lieu": "Lacs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Aegithalos caudatus",
+    "lieu": "Au sommet de la tête de Blanc",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Sittelle",
+    "lieu": "Village de pêcheurs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Panure à moustaches",
+    "lieu": "Montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pie-grièche à tête rousse",
+    "lieu": "Banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pigeon de Wonga",
+    "lieu": "Forêts",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Colombar à cou rose",
+    "lieu": "Champ de fleurs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Canard siffleur",
+    "lieu": "Rivières",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Mouette",
+    "lieu": "Mers",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Loriot d'Europe",
+    "lieu": "Foyer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Diamant mandarin",
+    "lieu": "Phare",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Orite à gorge d'argent",
+    "lieu": "Tremplin",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Ara rouge et vert",
+    "lieu": "Événement : retour des oiseaux au nid",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tadorne casarca",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Eider royal",
+    "lieu": "Rivières",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Goéland d'Audouin",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Cormoran vert européen",
+    "lieu": "Mers",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Bergeronnette grise",
+    "lieu": "Plage violette",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Cardinal à couronne grise",
+    "lieu": "Place du village de pêcheurs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pinson",
+    "lieu": "Île de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Jardinier à tête jaune",
+    "lieu": "Forêt de chênes spirituels",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pigeon aux fruits d'or",
+    "lieu": "Champ de fleurs des moulins à vent",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Faisan à ventre blanc",
+    "lieu": "Ruines",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Harle piette",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Moucherolle à ventre jaune",
+    "lieu": "Quai",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Guêpier d'Europe",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grand ara vert",
+    "lieu": "Événement : retour des oiseaux au nid",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pigeon à yeux jaunes",
+    "lieu": "Source thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Petit flamant",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Sterne blanche",
+    "lieu": "Ancienne mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Gros-bec",
+    "lieu": "Lac volcanique",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tourterelle à tête grise",
+    "lieu": "Quai oriental du village de pêcheurs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Cormoran à face rouge",
+    "lieu": "Ancienne mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Hibou moyen-duc",
+    "lieu": "Falaise rocheuse",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Mésange bleue",
+    "lieu": "Champ de fleurs des moulins à vent",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Ara indigo",
+    "lieu": "Événement : retour des oiseaux au nid",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Colombe jambu",
+    "lieu": "Banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Sterne",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Faucon rouge",
+    "lieu": "Tour du faon",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  }
+]

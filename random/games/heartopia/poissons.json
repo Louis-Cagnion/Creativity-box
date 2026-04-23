@@ -1,0 +1,1236 @@
+[
+  {
+    "name": "Perche de rivière",
+    "lieu": "Rivières",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grenouille européenne",
+    "lieu": "Lacs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Carpe argentée",
+    "lieu": "Lacs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Loche des fleurs",
+    "lieu": "Fleuve d'arbres géants",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Barbillon",
+    "lieu": "Rivière peu profonde",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Zingel streber",
+    "lieu": "Rivière aurore",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Vairon",
+    "lieu": "Rivière calme",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tilapia",
+    "lieu": "Rivières",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tanche dorée",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Féra",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Carpe noire",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Ablette",
+    "lieu": "Lacs",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Barbeau",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crevette verte",
+    "lieu": "Rivières",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Sardine",
+    "lieu": "Mers",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Perche de mer",
+    "lieu": "Mers",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Bonite",
+    "lieu": "Mers",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Poisson sabre",
+    "lieu": "Mer calme",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crevette de mer",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Saurel",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Chimère argentée",
+    "lieu": "Mers",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Épinoche de mer",
+    "lieu": "Ancienne mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Rouget barbet",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Loche des rochers",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Acantharchus pomotis",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Éperlan",
+    "lieu": "Lac de la prairie",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grémille",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Comète coussut",
+    "lieu": "Mer calme",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Hippocampe",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Baudroie",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Moule",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Sandre blanc",
+    "lieu": "Fleuve d'arbres géants",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Têtard",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Écrevisse noble",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "matin",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pieuvre",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Saumon atlantique",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pieuvre naine d'Atlantique",
+    "lieu": "Mer calme",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Bernard-l'ermite",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Poisson-clown",
+    "lieu": "Ancienne mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grand black-bass",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Carpe commune",
+    "lieu": "Rivière aurore",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Lotte",
+    "lieu": "Rivière calme",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Gobie",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "matin",
+      "apres-midi"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crabe de ruisseau",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Turbot",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Plie commune",
+    "lieu": "Ancienne mer",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Piranha à ventre rouge",
+    "lieu": "Fleuve d'arbres géants",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Koï papillon",
+    "lieu": "Lac de la prairie",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Blennie fluviatile",
+    "lieu": "Rivière aurore",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Truite",
+    "lieu": "Lac de la prairie",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Rotengle",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Maquereau commun",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Homard européen",
+    "lieu": "Mer calme",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Calmar volant",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grande huître perlière",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Tétraodon",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Saumon kéta",
+    "lieu": "Rivière calme",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Omble commun",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Grondin perlon",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Roussette",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Épinoche",
+    "lieu": "Rivière peu profonde",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Aphanius de Corse",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Chabot",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Régalec",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Pagellus bogaraveo",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Anguille d'Europe",
+    "lieu": "Ancienne mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crabe royal doré",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Poisson-chien",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "matin",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Écrevisse noble bleue",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Poisson rouge",
+    "lieu": "Lac de la prairie",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crabe royal",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Églefin",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Brochet tacheté",
+    "lieu": "Lac de banlieue",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crapet-soleil",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "matin",
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Huchon",
+    "lieu": "Fleuve d'arbres géants",
+    "heures": [
+      "apres-midi",
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Thon rouge",
+    "lieu": "Fleuve d'arbres géants",
+    "heures": [
+      "matin",
+      "apres-midi"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Poisson-lune",
+    "lieu": "Mer de l'Est",
+    "heures": [
+      "matin",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Lampris-lune",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Silure glane",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Crapet arlequin",
+    "lieu": "Lac de la montagne thermale",
+    "heures": [
+      "soir",
+      "nuit"
+    ],
+    "meteos": [
+      "soleil",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Omble chevalier",
+    "lieu": "Lac de la forêt",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "pluie",
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Espadon",
+    "lieu": "Mer de baleine",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  },
+  {
+    "name": "Requin mako",
+    "lieu": "Événement : pêche en mer",
+    "heures": [
+      "apres-midi",
+      "soir"
+    ],
+    "meteos": [
+      "arc-en-ciel"
+    ],
+    "niveau_hobby": 1
+  }
+]
