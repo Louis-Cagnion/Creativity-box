@@ -65,11 +65,12 @@ let draggingCollectible = null;
 // 🗺️ ADD PLACE (ADMIN ONLY)
 // =========================
 
-function createCollectibleMarker(x, y, type, collectibleName, spawnIndex) {
+function createCollectibleMarker(x, y, type, collectibleName, spawnIndex, color = "#e67e22") {
     const el = document.createElement("div");
     el.className = "marker collectible-marker";
     el.style.left = x + "%";
     el.style.top = y + "%";
+    el.style.background = color;
     el.dataset.type = type;
     el.dataset.collectibleName = collectibleName;
     el.dataset.spawnIndex = spawnIndex;
@@ -92,7 +93,7 @@ container.addEventListener("click", function(e) {
         currentCollectible.spawns.push({ x, y });
         localStorage.setItem("collectibles", JSON.stringify(collectibles));
         const spawnIndex = currentCollectible.spawns.length - 1;
-        createCollectibleMarker(x, y, currentCollectible.type, currentCollectible.name, spawnIndex);
+        createCollectibleMarker(x, y, currentCollectible.type, currentCollectible.name, spawnIndex, currentCollectible.color || "#e67e22");
         return;
     }
 
@@ -264,7 +265,7 @@ places.forEach(p => {
 });
 collectibles.forEach(c => {
     c.spawns.forEach((s, i) => {
-        createCollectibleMarker(s.x, s.y, c.type, c.name, i);
+        createCollectibleMarker(s.x, s.y, c.type, c.name, i, c.color || "#e67e22");
     });
 });
 setTimeout(() => { applyTransform(); updateMarkerVisibility(); repositionLabels(); clampLabels(); }, 100);
@@ -579,24 +580,41 @@ function saveElement(type) {
 // 🍄 COLLECTIBLES PLACEMENT
 // =========================
 
-function startCollectiblePlacement() {
+function creerCollectible() {
     const nom = document.getElementById("collectibleNom").value.trim();
     const categorieSelect = document.getElementById("collectibleCategorieSelect").value;
     const type = categorieSelect === "__new__"
         ? document.getElementById("collectibleType").value.trim()
         : categorieSelect;
+    const color = document.getElementById("collectibleColor").value;
 
     if (!nom) { alert("Nom manquant"); return; }
     if (!type) { alert("Type/catégorie manquant"); return; }
 
-    currentCollectible = collectibles.find(c => c.name === nom);
-    if (!currentCollectible) {
-        currentCollectible = { name: nom, type, spawns: [] };
-        collectibles.push(currentCollectible);
+    if (collectibles.find(c => c.name === nom)) {
+        alert("Un collectible avec ce nom existe déjà.");
+        return;
     }
+
+    currentCollectible = { name: nom, type, color, spawns: [] };
+    collectibles.push(currentCollectible);
+    localStorage.setItem("collectibles", JSON.stringify(collectibles));
 
     collectiblePlacementMode = true;
     container.style.cursor = "crosshair";
+    document.getElementById("panelCollectible").classList.add("hidden");
+}
+
+function placerCollectibleExistant() {
+    const nom = document.getElementById("collectibleExistantSelect").value;
+    if (!nom) { alert("Aucun élément sélectionné"); return; }
+
+    currentCollectible = collectibles.find(c => c.name === nom);
+    if (!currentCollectible) { alert("Élément introuvable"); return; }
+
+    collectiblePlacementMode = true;
+    container.style.cursor = "crosshair";
+    document.getElementById("panelCollectible").classList.add("hidden");
 }
 
 // =========================
@@ -614,6 +632,7 @@ function exportTout() {
             data: collectibles.map(c => ({
                 name: c.name,
                 type: c.type,
+                color: c.color || "#e67e22",
                 spawns: c.spawns.map(s => ({
                     x: Math.round(s.x * 100) / 100,
                     y: Math.round(s.y * 100) / 100
@@ -688,15 +707,30 @@ function onCategorieSelect() {
 
 function openCollectiblePanel() {
     openPanel("panelCollectible");
-    // Remplir les catégories existantes
-    const select = document.getElementById("collectibleCategorieSelect");
-    select.innerHTML = '<option value="__new__">➕ Nouvelle catégorie</option>';
+
+    // Remplir catégories
+    const selectCat = document.getElementById("collectibleCategorieSelect");
+    selectCat.innerHTML = '<option value="__new__">➕ Nouvelle catégorie</option>';
     const types = [...new Set(collectibles.map(c => c.type))].sort();
     types.forEach(t => {
         const opt = document.createElement("option");
         opt.value = t;
         opt.textContent = t;
-        select.appendChild(opt);
+        selectCat.appendChild(opt);
     });
     document.getElementById("collectibleTypeLabel").classList.add("hidden");
+
+    // Remplir éléments existants
+    const selectEx = document.getElementById("collectibleExistantSelect");
+    selectEx.innerHTML = "";
+    [...collectibles].sort((a, b) => a.name.localeCompare(b.name, "fr")).forEach(c => {
+        const opt = document.createElement("option");
+        opt.value = c.name;
+        opt.textContent = c.name;
+        selectEx.appendChild(opt);
+    });
+
+    // Reset champs
+    document.getElementById("collectibleNom").value = "";
+    document.getElementById("collectibleColor").value = "#e67e22";
 }

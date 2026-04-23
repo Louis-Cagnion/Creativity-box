@@ -134,17 +134,37 @@
 
 <!-- 🍄 PANNEAU COLLECTIBLES -->
 <div id="panelCollectible" class="hidden element-panel">
-    <h3>🍄 Placer un collectible</h3>
-    <label>Nom :<input type="text" id="collectibleNom"></label>
-    <label>Catégorie :
-        <select id="collectibleCategorieSelect" onchange="onCategorieSelect()">
-            <option value="__new__">➕ Nouvelle catégorie</option>
-        </select>
-    </label>
-    <label id="collectibleTypeLabel" class="hidden">Nouvelle catégorie :
-        <input type="text" id="collectibleType" placeholder="champignon, fleur...">
-    </label>
-    <button onclick="startCollectiblePlacement()">📍 Placer sur la carte</button>
+    <h3>🍄 Collectibles</h3>
+
+    <!-- Partie 1 : Nouvel élément -->
+    <div class="collectible-section">
+        <strong>➕ Nouvel élément</strong>
+        <label>Nom :<input type="text" id="collectibleNom"></label>
+        <label>Catégorie :
+            <select id="collectibleCategorieSelect" onchange="onCategorieSelect()">
+                <option value="__new__">➕ Nouvelle catégorie</option>
+            </select>
+        </label>
+        <label id="collectibleTypeLabel" class="hidden">Nouvelle catégorie :
+            <input type="text" id="collectibleType" placeholder="champignon, fleur...">
+        </label>
+        <label>Couleur :
+            <input type="color" id="collectibleColor" value="#e67e22">
+        </label>
+        <button onclick="creerCollectible()">✅ Créer et placer</button>
+    </div>
+
+    <hr style="border-color: #444; margin: 10px 0;">
+
+    <!-- Partie 2 : Élément existant -->
+    <div class="collectible-section">
+        <strong>📍 Ajouter des positions</strong>
+        <label>Élément :
+            <select id="collectibleExistantSelect"></select>
+        </label>
+        <button onclick="placerCollectibleExistant()">📍 Placer sur la carte</button>
+    </div>
+
     <button onclick="closePanel('panelCollectible')">✖ Fermer</button>
 </div>
 

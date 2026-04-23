@@ -260,3 +260,13 @@ button {
     background: #e67e22;
     border: 1px solid black;
 }
+
+.collectible-section {
+    margin-bottom: 8px;
+}
+
+.collectible-section strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #aaa;
+}
