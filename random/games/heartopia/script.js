@@ -343,7 +343,7 @@ collectibles.forEach(c => {
         createCollectibleMarker(s.x, s.y, c.type, c.name, i, c.color || "#e67e22");
     });
 });
-setTimeout(() => { applyTransform(); updateMarkerVisibility(); repositionLabels(); clampLabels(); }, 100);
+setTimeout(() => { applyTransform(); updateMarkerVisibility(); repositionLabels(); clampLabels(); afficherLegende(); }, 100);
 
 // =========================
 // 📤 EXPORT LIEUX
@@ -761,6 +761,7 @@ function importElements(event) {
             } else if (file.name === "collectibles.json") {
                 collectibles = data;
                 localStorage.setItem("collectibles", JSON.stringify(collectibles));
+                afficherLegende();
             } else {
                 alert(`Fichier non reconnu : ${file.name}`);
             }
@@ -768,6 +769,7 @@ function importElements(event) {
         reader.readAsText(file);
     });
     alert("Import terminé !");
+    afficherLegende();
 }
 
 function onCategorieSelect() {
@@ -921,4 +923,28 @@ function toggleSpeciaux() {
             }
         });
     }
+}
+
+function afficherLegende() {
+    const list = document.getElementById("legendeList");
+    list.innerHTML = "";
+
+    const collectiblesAvecSpawns = collectibles.filter(c => c.spawns && c.spawns.length > 0);
+
+    if (collectiblesAvecSpawns.length === 0) {
+        document.getElementById("legendeCollectibles").classList.add("hidden");
+        return;
+    }
+
+    document.getElementById("legendeCollectibles").classList.remove("hidden");
+
+    collectiblesAvecSpawns.forEach(c => {
+        const div = document.createElement("div");
+        div.className = "legende-item";
+        div.innerHTML = `
+            <div class="legende-pastille" style="background: ${c.color || "#e67e22"}"></div>
+            <span>${c.name}</span>
+        `;
+        list.appendChild(div);
+    });
 }

@@ -363,3 +363,35 @@ button {
     margin-bottom: 6px;
     color: #aaa;
 }
+
+#legendeCollectibles {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background: #111;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: var(--ui-font-size);
+    z-index: 100;
+}
+
+#legendeCollectibles h3 {
+    margin: 0 0 8px 0;
+    font-size: var(--ui-font-size);
+}
+
+.legende-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+}
+
+.legende-pastille {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    flex-shrink: 0;
+}
