@@ -830,14 +830,21 @@ function getEmojiType(element) {
 }
 
 function afficherGroupeElements(elements, container) {
+    const filtres = {};
+    document.querySelectorAll(".filters input[type='checkbox']").forEach(cb => {
+        filtres[cb.value] = cb.checked;
+    });
+
     const ul = document.createElement("ul");
     ul.className = "elements-lieu-liste";
 
     const tousElements = [
-        ...poissons.filter(p => elements.includes(p.name)).map(p => ({ name: p.name, emoji: "🐟" })),
-        ...oiseaux.filter(o => elements.includes(o.name)).map(o => ({ name: o.name, emoji: "🪶" })),
-        ...insectes.filter(i => elements.includes(i.name)).map(i => ({ name: i.name, emoji: "🐛" }))
+        ...(filtres["poisson"] ? poissons.filter(p => elements.includes(p.name)).map(p => ({ name: p.name, emoji: "🐟" })) : []),
+        ...(filtres["oiseau"] ? oiseaux.filter(o => elements.includes(o.name)).map(o => ({ name: o.name, emoji: "🪶" })) : []),
+        ...(filtres["insecte"] ? insectes.filter(i => elements.includes(i.name)).map(i => ({ name: i.name, emoji: "🐛" })) : [])
     ];
+
+    if (tousElements.length === 0) return;
 
     tousElements.forEach(({ name, emoji }) => {
         const li = document.createElement("li");
@@ -947,4 +954,35 @@ function afficherLegende() {
         `;
         list.appendChild(div);
     });
+}
+
+// =========================
+// 🔲 FILTRES
+// =========================
+
+document.querySelectorAll(".filters input[type='checkbox']").forEach(cb => {
+    cb.addEventListener("change", function() {
+        if (mode !== "user") return;
+        appliquerFiltres();
+    });
+});
+
+function appliquerFiltres() {
+    const filtres = {};
+    document.querySelectorAll(".filters input[type='checkbox']").forEach(cb => {
+        filtres[cb.value] = cb.checked;
+    });
+
+    // Collectibles markers
+    document.querySelectorAll(".collectible-marker").forEach(el => {
+        el.style.display = filtres["collectible"] ? "block" : "none";
+    });
+
+    // Légende collectibles
+    document.getElementById("legendeCollectibles").style.display = filtres["collectible"] ? "" : "none";
+
+    // Éléments dans le panneau info si un lieu est sélectionné
+    if (selectedPlace) {
+        afficherElementsLieu(selectedPlace);
+    }
 }
